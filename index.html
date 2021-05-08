@@ -8,34 +8,84 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Website</title>
+  <title>Engenharia Civil</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="a">
-      <img src="img/slack.jpg" width="220" height="80">
+      <img src="img/logocivil.png" width="220" height="80">
     </a>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Quem Somos</a>
+          <a class="nav-link" href="#sobre-mim">Sobre Mim</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projetos</a>
+          <a class="nav-link" href="#projetos">Projetos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contato</a>
+          <a class="nav-link" href="#contato">Contato</a>
         </li>
       </ul>
     </div>
   </nav>
-  <section id="quemsomos">
-    <div class="container-fluid quem-somos margin">
-      <h3 class="text-center" >Quem Somos</h3>
-      <p>Atuando na área da construção civil desde 2013, formado em 2016 em Engenharia Civil.</p>
+
+  <section id="sobre-mim">
+    <div class="container-fluid sobre-mim text-center margin">
+      <h3 class="texto">Sobre Mim</h3>
+      <p> Quando paramos para pensar que a engenharia está relacionada a aplicar o conhecimento para a melhoria da qualidade de vida,
+          desenvolvendo ferramentas, equipamentos e objetos úteis, podemos voltar aos tempos antigos, na época da invenção da roda, da polia e da alavanca.
+          Mas, nesse mesmo contexto, estão as ferramentas muito antigas usadas pelos pré-históricos, como facas feita de pedras, lanças e outros objetos.
+          Ou seja, os engenheiros estavam lá, mas não levavam o título.
+      </p>
+      <p>Fica bem óbvio que os engenheiros (ou os precursores dos engenheiros) estavam presentes nas populações antigas quando pensamos
+        na construção das pirâmides do Egito, os aquedutos romanos, Machu Picchu e outras construções icônicas, o mecanismo de Antikythera,
+        as invenções de Arquimedes, as catapultas, etc. Eles também estavam envolvidos na base matemática e física que forma a engenharia,
+        como o bom e velho teorema de Pitágoras.
+      </p>
+      <p>Que o primeiro engenheiro civil foi Imhotep, um dos funcionários do faraó que projetou e construiu a pirâmide de Djoser.
+        Isso aconteceu por volta de 2630 – 2611 a. C. Vale destacar que ele também foi considerado o primeiro arquiteto da história antiga.
+      </p>
+    </div>
+
+  </section>
+  <section id="projetos">
+    <div class="container-fluid projetos margin">
+      <h3 class="texto text-center">Projetos</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="foto-planta " src="img/planta01.jpg">
+            <p>Casa com área de 65.59m², 3 quartos ,sala, cozinha, banheiro</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="foto-planta" src="img/planta02.png">
+            <p>Casa com área de 149.91m², 1 suíte, 2 quartos ,sala, cozinha, 2 banheiros</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="foto-planta" src="img/planta03.jpg">
+            <p>Casa com 2 quartos ,sala, cozinha, banheiro, área serviço, varanda</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-</body>
 
+  <section id="contato">
+    <div class="container-fluid text-center contato margin">
+      <h3>Contato</h3>
+        <div class="text-center">
+          <img src="img/o-email.png" width="25" hegth="25">
+          <p>email@email.com</p>
+          <img src="img/whatsapp.png" width="25" hegth="25">
+          <p>(99) 9999-9999</p>
+        </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid text-center margin bg-footer">
+    <p>Desenvolvido por Luis Roberto Machado</p>
+  </footer>
+</body>
 </html>
